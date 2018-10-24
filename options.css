@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  border:solid 15px linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+}
+
+.content {
+  background-color: #fff;
+  background-image: url("oceanman.jpg");
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: red;
+  box-shadow: 50px 70px 8px #888888;
+}
+
+.main {
+  background-image: url("pdfmeme.jpg");
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+
+}
